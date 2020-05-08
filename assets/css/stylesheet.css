@@ -1,0 +1,504 @@
+/* setting global parameters */
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* zeroing margins and the padding so easier to add css*/
+body{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+/*HEADER*/
+/*adding a header background*/
+header{
+    background-image: url("/assets/img/mountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-bottom: #000 3px solid;
+}
+
+/*'MixMusic' webpage title */
+.home-title{
+  color: #fcbaba;
+  text-shadow: #000 3px 2px 1px;
+  padding-top: 40px;
+  padding-left: 50px;
+  font-size: 50px;
+  
+}
+
+.profile-container{
+  
+  border-bottom: 2px #000 solid;
+  background-color: #d17575;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  padding-left: 3%;
+}
+.profile-name{
+  margin: 0;
+  text-align: left;
+  padding-left: 4%;
+  
+}
+
+/*adding a profile picture to the header*/
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.nav-bar{
+  
+}
+
+.nav-ul{
+  text-align: center;
+  display: inline-flex;
+  box-sizing: border-box;
+}
+
+.nav-list{
+  list-style: none;
+  flex-direction: row;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fcbaba;
+    text-shadow: #000 1px 2px 1px;
+    padding-inline-start: 10px;
+}
+
+/*MAIN*/    
+/*box container for the three flex boxes*/
+.box-container{
+  width: 100%;
+}
+
+/*unordered list of boxes*/
+.box-ul{
+  text-align: center;
+  display: inline-flex;
+}
+
+/*individual box's*/
+.box{
+  width: 33%;
+  padding:  0px 10px 20px 10px;
+  box-sizing: border-box;
+}
+
+/*list of content within boxes*/
+.box-list p{
+    text-transform: uppercase;
+    
+}
+
+/**/
+.box-title{
+    padding-bottom: 20px;
+    display: inline-flex;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #56998b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/**/
+.box-list{
+    border: #000 solid 2px;
+    list-style: none; 
+    padding: 15%;
+    background-image: url("/assets/img/mountain.png");
+}
+
+
+
+
+/* 10 Most Recently Listened Tracks J Text Container */
+.recent-playlist{
+ 
+}
+
+.playlist-title{
+  font-size: 1.5em;
+  margin: 5%;
+  color: #56998b;
+  text-decoration: underline;
+}
+
+.albumImage{
+  width: 80%;
+  vertical-align: middle;
+}
+
+.recent-ul{
+  position: relative;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.recent-ul, .recent-li{
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: rgb(197, 95, 95);
+  list-style: none;
+}
+
+span{
+  display: inline-flex;
+  vertical-align: middle;
+  width: 20%;
+  color: #fff;
+}
+
+.span-songName{
+  margin: 5%;
+  width: 20%;
+  text-align: center;
+}
+
+.span-listens{
+ color: #000000;
+}
+
+.tracks-titles{
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+}
+
+.tracks-titles li{
+ margin: 5%;
+ list-style: none;
+ 
+}
+
+ .song-name-li{
+  margin: 5%;
+  padding-left: 10px;
+  
+ }
+
+/* 10 Overall Tracks Tracks J Text Container */
+.overall-playlist{
+
+}
+.span-artist{
+  margin-right: 5%;
+}
+
+.last-played-li{
+  margin-left: 4%;
+}
+
+/* 8 Top Artists Json Text Container */
+
+
+/*highlighted love button*/
+.love-button{
+  vertical-align: middle;
+  font-size: 3rem;
+  border: 2px #000 solid;
+  background-color: rgb(26, 27, 29);
+  color: rgb(92, 100, 156);
+  border-radius: 10%;
+  transition: transform 150ms;
+}
+.love-button:active{
+  transform: translateY(0.1rem);
+}
+
+.full-heart{
+  color: rgb(218, 15, 25);
+  background-color: #d17575;
+  vertical-align: middle;
+  font-size: 3rem;
+  border: 2px #000 solid;
+  background-color: rgb(26, 27, 29);
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+ 
+}
+
+/*individual lists for albums*/
+
+
+/*Table*/
+.table-container{
+  background-color: #f8dfdf;
+  padding: 20px 50px;
+}
+
+.table-title{
+  padding: 20px 0px;
+  color: #000000; 
+}
+
+.bookings-table{
+  padding-left: 0px;
+  background-color: #000;
+}
+
+td{
+    font-size: 14px;
+    color: #000;
+    line-height: 1.4;
+    padding: 20px; 
+}
+
+.t-row{
+  background-color: #fff;
+}
+  
+.bookings-table th{
+    font-size: 12px;
+    color: #fff;
+    line-height: 4;
+    text-transform: uppercase;
+    background-color: rgb(155, 197, 158);
+  }
+  
+  .t-row:hover {
+    background-color: #b4e6db;
+    color: #fff;
+  }
+  
+  td:hover {
+    color: #fff;
+  }
+
+  .outer-continer{
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 80%;
+  }
+
+  /* Contact us Form */
+  .contact-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    border: #000 2px solid;
+    background-image: url(/assets/img/mountain.png);
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .contact-form{
+    
+  }
+
+  .contact-title{
+    color: #fcbaba;
+    text-shadow: #000 2px 2px 1px;
+    overflow: hidden;
+  }
+
+  .contact-list{
+    list-style: none;
+    padding-bottom: 5px;
+    
+  }
+
+  input{
+    width: 100%;
+    background-color:#fcbaba;
+    height: 30px;
+    text-align: center;
+  }
+
+  input::placeholder{
+    color: #fff;
+    font-size: 18px;
+    text-shadow: #000 2px 2px 2px;
+  }
+
+  .contact-button{
+    width: 81%;
+    background-color:#fcbaba;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    height: 30px;
+  }
+
+  /*comment input container*/
+  .comment-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    border: #000 2px solid;
+    background-image: url(/assets/img/mountain.png);
+  }
+
+  .comment-form{
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .comment-title{
+    color: #fcbaba;
+    text-shadow: #000 2px 2px 1px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .comment-list{
+    list-style: none;
+    padding-bottom: 5px;
+    
+  }
+
+  input{
+    width: 80%;
+    background-color:#fcbaba;
+    height: 30px;
+  }
+
+  input::placeholder{
+    color: #fff;
+    font-size: 18px;
+    text-shadow: #000 2px 2px 2px;
+
+  }
+
+  .comment-button{
+    width: 81%;
+    background-color:#fcbaba;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    height: 30px;
+  }
+
+  textarea{
+    width: 80%;
+    height: 10vh;
+  }
+
+  .comment-output{
+    color: #56998b;
+  }
+
+  
+
+  .json-Ul{
+    border: #000 2px solid;
+    padding: 200px;
+  }
+  
+  
+ /* barcharts */
+
+  .bar-container{
+  display: flex;
+  background-color: #000000;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  text-align: center;
+  
+  
+}
+
+.bar-title {
+  display: flex;
+  font-size: 1.2em;
+  padding-bottom: 50px;
+  color: #fff;
+  padding-left: 40%;
+
+}
+
+.text {
+  align-items: center;
+  font-weight: bold;
+  display: flex;
+  height: 40px;
+  width: 200px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+}
+
+.bar {
+  font-size: .8em;
+  line-height: 1;
+  text-transform: uppercase;
+  width: 90%;
+  height: 40px;
+  margin-left: 200px;
+  background: repeating-linear-gradient(to right, #d17575, #ddd 1px, #fff 1px, #fff 5%);
+}
+.bar:after {
+  content: "";
+  display: block;
+  background-color: #3d9970;
+  width: 50px;
+  margin-bottom: 10px;
+  height: 90%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  cursor: pointer;
+}
+
+.bar-1:after {
+  width: 47%;
+}
+
+.bar-2:after {
+  width: 19%;
+}
+
+.bar-3:after {
+  width: 17%;
+}
+
+.bar-4:after {
+  width: 15%;
+}
+
+.bar-5:after {
+  width: 13%;
+}
+
+.bar-6:after {
+  width: 10%;
+}
+
+.bar-7:after {
+  width: 7.6%;
+}
+
+.bar-8:after {
+  width: 3%;
+}
+
+.bar-9:after {
+  width: 2.1%;
+}
+
+.bar-10:after {
+  width: 1.4%;
+}
+
+
+
+
+
+
+
+

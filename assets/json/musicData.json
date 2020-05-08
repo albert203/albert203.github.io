@@ -1,0 +1,184 @@
+{
+"recentlyPlayed":[
+    {
+        "songName": "Pop Boy(feat. Aitch)",
+        "artist": "Stormzy, Aizy",
+        "image": "/assets/img/PopBoy.png",
+        "lastListened": "2 days ago"
+    },
+
+    {
+        "songName": "Handyman",
+        "artist": "Triple One",
+        "image": "assets/img/HandyMan.png",
+        "lastListened": "35 minutes ago"
+    },
+
+    {
+        "songName": "Leaving(feat. Yuna)",
+        "artist": "Ekali, Yuna",
+        "image": "assets/img/Leaving.png",
+        "lastListened": "11 days ago"
+    },
+
+    {
+        "songName": "0 to 100/The Catch Up",
+        "artist": "Drake",
+        "image":"assets/img/TheCatchUp.png",
+        "lastListened": "2 months ago"
+    },
+
+    {
+        "songName": "Wya?",
+        "artist": "Wifisfuneral",
+        "image":"assets/img/Wya.png",
+        "lastListened": "23 hours ago"
+    },
+
+    {
+        "songName": "King's Dead",
+        "artist": "Kendrick Lamar",
+        "image":"assets/img/King'sDead.png",
+        "lastListened": "10 minutes ago"
+    },
+
+    {
+        "songName": "Lights Out",
+        "artist": "Zed's Dead",
+        "image":"assets/img/LightsOut.png",
+        "lastListened": "6 minutes ago" 
+    },
+
+    {
+        "songName": "Addison Rae",
+        "artist": "The Kid Laroi",
+        "image":"assets/img/AddisonRae.png",
+        "lastListened": "4 days ago"
+    },
+
+    {
+        "songName": "Revenge",
+        "artist": "Joyner Lucas",
+        "image":"assets/img/Revenge.png",
+        "lastListened": "6 months ago"
+    },
+
+    {
+        "songName": "Lose Control",
+        "artist": "MEDUZA, Becky Hill",
+        "image":"assets/img/LoseControl.png",
+        "lastListened": "7 hours ago"
+    }
+],
+
+"topArtists":[
+    {
+        "artistName":"Juice Wrld",
+        "artistImage":"assets/img/JuiceWrld.png",
+        "artistListens": "1,060,303,242"
+    },
+
+    {
+        "artistName":"Rl Grime",
+        "artistImage":"assets/img/RlGrime.png",
+        "artistListens": "600,243,641"
+    },
+
+    {
+        "artistName":"Stormzy",
+        "artistImage":"assets/img/Stormzy.png",
+        "artistListens": "806,342,147"
+    },
+
+    {
+        "artistName":"Jaden Smith",
+        "artistImage":"assets/img/JadenSmith.png",
+        "artistListens": "350,234,532"
+    },
+
+    {
+        "artistName":"Alison Wonderland",
+        "artistImage":"assets/img/AlisonWonderland.png",
+        "artistListens": "122,323,683"
+    },
+
+    {
+        "artistName":"Droeloe",
+        "artistImage":"assets/img/Droloe.png",
+        "artistListens": "160,342,643"
+    },
+
+    {
+        "artistName":"Zeds Dead",
+        "artistImage":"assets/img/ZedsDead.png",
+        "artistListens": "745,324,872"
+    },
+
+    {
+        "artistName":"The Weeknd",
+        "artistImage":"assets/img/TheWeeknd.png",
+        "artistListens": "1,634,543,263"
+    }
+],
+
+"OverallTracks":[
+    {
+        "songName": "Difference",
+        "artist": "XXXTentacion",
+        "totalListens": "121,345,432"
+    },
+
+    {
+        "songName": "Vossi Bop",
+        "artist": "Stormzy",
+        "totalListens": "240,234,653"
+    },
+
+    {
+        "songName": "44 More",
+        "artist": "Logic",
+        "totalListens": "287,888,020"
+    },
+
+    {
+        "songName": "Nights",
+        "artist": "Frank Ocean",
+        "totalListens": "77,342,114"
+    },
+
+    {
+        "songName": "Fumes",
+        "artist": "The Eden Project",
+        "totalListens": "55,323,428"
+    },
+
+    {
+        "songName": "Blame",
+        "artist": "Graves",
+        "totalListens": "27,240,274"
+    },
+
+    {
+        "songName": "On Top",
+        "artist": "Flume",
+        "totalListens": "30,612,660"
+    },
+
+    {
+        "songName": "Hometown Girl",
+        "artist": "Zhu",
+        "totalListens": "75,165,544"
+    },
+
+    {
+        "songName": "Energy",
+        "artist": "Drake",
+        "totalListens": "982,089,465"
+    },
+
+    {
+        "songName": "17",
+        "artist": "Kings of Leon",
+        "totalListens": "100,398,441"
+    }
+]}
